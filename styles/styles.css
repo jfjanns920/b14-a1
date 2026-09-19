@@ -44,51 +44,41 @@ ul{
 
 
 
-.bnnr-prnt{
+ .bnnr-prnt img{ 
     width: 100%;
     display: block;
-
-    background-image:
-        linear-gradient(
-            rgba(0, 0, 0, 0.6),
-            rgba(0, 0, 0, 0.6)
-        ),
-        url("assets/banner.jpg");
-
     background-size: cover;
-    background-position: center;
-
-
-
-     /* background-image:
-        linear-gradient(
-            to bottom,
-            rgba(0, 0, 0, 0.2),
-            rgba(0, 0, 0, 0.8)
-        ),
-        url("assets/banner.jpg");
-
-    background-size: cover;
-    background-position: center; */
+    
 }
-
 
 
 .bnnr-prnt{
     position: relative;
-    /* linear-gradient:(rgba(0, 0, 0, 0.5); */
+    background-image: url('../assets/banner.jpg'),linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ) ;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
 }
+
 
 
 .bnnr-text {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -120%);
+    transform: translate(-50%, -50%);
     text-align: center;
     color: white;
 }
 
+
+.bnr-p{
+    margin-bottom: 32px;
+    padding-bottom: 50px;
+}
 
 
 
@@ -102,10 +92,7 @@ ul{
     font-weight: bold;
     cursor: pointer;
 
-    position: absolute;
-    top: 75%;
-    left: 50%;
-    transform: translate(-50%, -10%);
+    margin-top: 150px;
     text-align: center;
     
 }    
